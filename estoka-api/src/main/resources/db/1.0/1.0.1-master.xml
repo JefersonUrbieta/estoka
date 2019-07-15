@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+
+    <changeSet author="jeferson.urbieta" id="1.0.1-tagdatabase">
+        <tagDatabase tag="1.0.1"/>
+    </changeSet>
+
+    <changeSet author="jeferson.urbieta" id="001-criacao-tabela-categoria">
+        <sqlFile encoding="utf8" path="1.0.1/001-criacao-tabela-categoria.sql"
+                 relativeToChangelogFile="true" splitStatements="true" stripComments="true"/>
+    </changeSet>
+
+    <changeSet author="jeferson.urbieta" id="002-criacao-tabela-unidade-medida">
+        <sqlFile encoding="utf8" path="1.0.1/002-criacao-tabela-unidade-medida.sql"
+                 relativeToChangelogFile="true" splitStatements="true" stripComments="true"/>
+    </changeSet>
+
+    <changeSet author="jeferson.urbieta" id="003-criacao-tabela-fornecedor">
+        <sqlFile encoding="utf8" path="1.0.1/003-criacao-tabela-fornecedor.sql"
+                 relativeToChangelogFile="true" splitStatements="true" stripComments="true"/>
+    </changeSet>
+
+</databaseChangeLog>

@@ -1,0 +1,83 @@
+{
+  "name": "estoka",
+  "version": "1.0.1",
+  "private": false,
+  "hal": {
+    "group": "estoka"
+  },
+  "scripts": {
+    "serve": "vue-cli-service serve --open --port 8081",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "unit-testing": "vue-cli-service test:unit --config jest.config.js --no-cache"
+  },
+  "files": [
+    "app/**"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://git.azi.com.br/licitacao/licitacao.git"
+  },
+  "dependencies": {
+    "@azinformatica/loki": "^0.3.13",
+    "accounting": "^0.4.1",
+    "axios": "^0.18.0",
+    "lodash": "^4.17.10",
+    "material-design-icons-iconfont": "^3.0.3",
+    "moment": "^2.22.2",
+    "soundex": "^0.2.1",
+    "string-mask": "^0.3.0",
+    "string-similarity": "^1.2.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "vee-validate": "^2.1.0-beta.11",
+    "vue": "^2.6.2",
+    "vue-router": "^3.0.1",
+    "vue-the-mask": "^0.11.1",
+    "vuetify": "^1.5.0",
+    "vuetify-datetime-picker": "^1.0.3",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@babel/polyfill": "^7.0.0-beta.49",
+    "@vue/cli-plugin-babel": "^3.0.5",
+    "@vue/cli-plugin-eslint": "^3.0.5",
+    "@vue/cli-plugin-unit-jest": "^3.0.5",
+    "@vue/cli-service": "^3.0.5",
+    "@vue/test-utils": "^1.0.0-beta.29",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^23.4.0",
+    "babel-plugin-istanbul": "^5.1.0",
+    "expect": "^23.6.0",
+    "flush-promises": "^1.0.0",
+    "istanbul-instrumenter-loader": "^3.0.1",
+    "sonarqube-scanner": "^2.1.2",
+    "vue-cli-plugin-vuetify": "^0.1.6",
+    "vue-template-compiler": "^2.6.2"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true,
+      "jest": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}

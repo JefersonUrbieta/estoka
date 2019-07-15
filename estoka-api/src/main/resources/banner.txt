@@ -1,0 +1,9 @@
+${AnsiColor.BRIGHT_BLUE}
+  _____   ____    _____    ___    _  __     _                 _      ____    ___
+ | ____| / ___|  |_   _|  / _ \  | |/ /    / \               / \    |  _ \  |_ _|
+ |  _|   \___ \    | |   | | | | | ' /    / _ \    _____    / _ \   | |_) |  | |
+ | |___   ___) |   | |   | |_| | | . \   / ___ \  |_____|  / ___ \  |  __/   | |
+ |_____| |____/    |_|    \___/  |_|\_\ /_/   \_\         /_/   \_\ |_|     |___|
+
+${AnsiColor.BLUE} :: Spring Boot ::        (v2.1.6.RELEASE)${AnsiColor.BLACK}
+${AnsiColor.BRIGHT_RED}:: ESTOKA-API ::     ${AnsiColor.BLACK}${application.version}

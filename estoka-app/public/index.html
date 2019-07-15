@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="<%= BASE_URL %>favicon/favicon.ico" rel="icon">
+    <link href="<%= BASE_URL %>favicon.ico" rel="icon">
+    <link href="<%= BASE_URL %>favicon/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+    <link href="<%= BASE_URL %>favicon/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' rel="stylesheet">
+    <link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" rel="stylesheet">
+
+    <meta content="#ffffff" name="msapplication-TileColor">
+    <meta content="/ms-icon-144x144.png" name="msapplication-TileImage">
+    <meta content="#ffffff" name="theme-color">
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width,initial-scale=1.0" name="viewport">
+    <meta content="Efcaz-CLM é a maior plataforma online para Gestão de Contratos" name="description">
+    <meta content="Efcaz-CLM é a maior plataforma online para Gestão de Contratos" property="og:description">
+    <meta content="plataforma, gestão de contratos, clm, contract, notificações inteligentes, tomada de decisão, economia de tempo, transparência, agilidade, formalização de contratos, contract lifecycle management"
+          name="keywords">
+    <meta content="Efcaz-CLM - Gestão de Contratos" name="author">
+    <meta content="http://hom.clm.efcaz.com.br/img/img-face.png" property="og:image">
+    <meta content="http://hom.clm.efcaz.com.br/" property="og:url">
+    <meta content="image/png" property="og:image:type">
+    <meta content="800" property="og:image:width">
+    <meta content="600" property="og:image:height">
+    <meta content="Efcaz-CLM - Gestão de Contratos" property="og:title">
+    <meta content="Efcaz-CLM" property="og:site_name">
+    <meta content="efcaz-clm" property="fb:app_id"/>
+    <title>Sistema Estoka</title>
+    <style lang="less">
+        .az-loadingg-page {
+            width: 100%;
+            display: block;
+            align-items: center;
+            position: absolute;
+            left: 40%;
+            align-content: center;
+        }
+
+        .loading-title {
+            width: 20%;
+            height: 100%;
+            font-size: 20px;
+            text-align: center;
+            margin-top: 100px;
+            font-weight: bold;
+            color: #555;
+        }
+
+        .loader {
+            height: 4px;
+            width: 20%;
+            position: relative;
+            overflow: hidden;
+            background-color: #ddd;
+        }
+
+        .loader:before {
+            display: block;
+            position: absolute;
+            content: "";
+            left: -200px;
+            width: 200px;
+            height: 4px;
+            background-color: #153c5c;
+            animation: loading 2s linear infinite;
+        }
+
+        @keyframes loading {
+            from {
+                left: -200px;
+                width: 30%;
+            }
+            50% {
+                width: 30%;
+            }
+            70% {
+                width: 70%;
+            }
+            80% {
+                left: 50%;
+            }
+            95% {
+                left: 120%;
+            }
+            to {
+                left: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+<noscript>
+    <strong>We're sorry but efcaz-clm-app doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+</noscript>
+<div class="az-loadingg-page" id="app">
+    <h1 class="loading-title">Carregando...</h1>
+    <div class="loader"></div>
+</div>
+<!-- built files will be auto injected -->
+</body>
+</html>
